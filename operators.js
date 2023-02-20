@@ -20,3 +20,12 @@ console.log("c = ", c -= 5);
 console.log("c = ", c *= 2);
 console.log("c = ", c /= 5);
 console.log("c = ", c **= 2);
+
+//Comparison Operators
+let x = 5;
+let y = "5";
+console.log( "x and y are: ", x,"&",  y);
+console.log("x == y is", x==y);
+console.log("x != y is", x!=y);
+console.log("x === y is", x===y);
+console.log("x !== y is", x!==y);
