@@ -1,4 +1,4 @@
-//for loop
+/*//for loop
 sum = 0;
 let n = parseInt(prompt("Enter a number"));
 for(let i=1; i<n+1;i++){
@@ -19,7 +19,7 @@ for(let a in obj){
 }
 for(let a in obj){
     console.log(obj)
-}
+} */
 
 //for of loop
 for(let b of "Harry"){
