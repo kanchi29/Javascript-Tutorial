@@ -10,3 +10,10 @@ console.log(document.body.hasChildNodes)
 //To convert it into an array:
 let arr =  Array.from(document.body.childNodes)
 console.log(arr);
+
+//Parent and Sibling
+console.log(document.body.firstChild)
+a = document.body.firstChild
+console.log(a.parentNode)  // gives element,text,comment,etc
+console.log(a.parentElement) //gives only element
+console.log(a.firstChild.nextSibling)
