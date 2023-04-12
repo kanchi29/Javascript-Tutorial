@@ -5,6 +5,10 @@
     //executor
 //});
 
+//resolve and reject are two callbacks provided by javascript itself. 
+//resolve  gives value for when job is fulfilled successfully
+//reject  gives error for when the job has failed.
+
 let promise = new Promise(function(resolve,reject){
     alert("HELLO");
     resolve(56)
