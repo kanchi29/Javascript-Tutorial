@@ -29,3 +29,8 @@ console.log("x == y is", x==y);
 console.log("x != y is", x!=y);
 console.log("x === y is", x===y);
 console.log("x !== y is", x!==y);
+
+//Logical Operators
+console.log(a>b && b>0);  //AND - All wxpressions must be true for result to be true
+console.log(b>a || a>0);  //OR - Atleast one expression is true
+console.log(!(a>b));      //NOT - Turns true to false and false to true
